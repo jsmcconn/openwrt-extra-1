@@ -36,7 +36,7 @@ define Package/samba4
   TITLE:=Samba $(PKG_VERSION) SMB/CIFS (server/client/tools)
   URL:=https://www.samba.org/
   MAINTAINER:=Andy Walsh <andy.walsh44+github@gmail.com>
-  DEPENDS:=+zlib +libpthread +libpopt +libcap +libtirpc +libnettle +krb5-libs +libarchive +libjansson \
+  DEPENDS:=+zlib +libpthread +libpopt +libcap +libtirpc +libnettle +krb5-libs +libarchive +jansson \
 	+SAMBA4_SERVER_ACL:acl \
 	+SAMBA4_SERVER_AVAHI:libavahi-client +SAMBA4_SERVER_AVAHI:avahi-dbus-daemon \
 	+SAMBA4_SERVER_AD_DC:python-base +SAMBA4_SERVER_AD_DC:krb5-server +SAMBA4_SERVER_AD_DC:libopenssl +SAMBA4_SERVER_AD_DC:libgnutls +SAMBA4_SERVER_AD_DC:libopenldap
